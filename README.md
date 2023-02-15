@@ -9,26 +9,26 @@ Bean == object (spring object)
 * TEMPLATE : <beans> container </beans>
 
 ## Options
-TEMPLATE <bean id = "..." class = "...">
-id - identifier
-class - directory to any class
-scope - patterns (use static variables/methods or not) singleton or prototype
+* id - identifier
+* class - directory to any class
+* scope - patterns (use static variables/methods or not) singleton or prototype
+* TEMPLATE <bean id = "..." class = "...">
   
 ## Info
-<bean>
+* <bean>
 <constructor-arg ref = "other_some_bean" />
 <constructor-arg ref = "some_bean" /> - it looks like extends class (class C = class A + class B)
 </bean>
   
 ## Also we can add values to constructor
-Example:
-  1) Sequential order as in a constructor
+* Example:
+  * Sequential order as in a constructor
   <constructor-arg values = "qwerty">
   <constructor-arg values = "123">
-  2) Accessing variables
+  * Accessing variables
   <constructor-arg name = "var1" values = "qwerty">
   <constructor-arg name = "var2" values = "123">
-  3) Accessing index
+  * Accessing index
   <constructor-arg index = "0" values = "qwerty">
   <constructor-arg index = "1" values = "123">
     
