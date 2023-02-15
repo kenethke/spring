@@ -3,9 +3,10 @@
 ## Bean
 Bean == object (spring object)
 
-## Container consist of beans ( <bean "options"> info </bean> )
-That is container == kit of beans
-TEMPLATE : <beans> container </beans>
+## Container
+* Container consist of beans ( <bean "options"> info </bean> )
+* That is container == kit of beans
+* TEMPLATE : <beans> container </beans>
 
 ## Options
 TEMPLATE <bean id = "..." class = "...">
