@@ -15,20 +15,20 @@ Bean == object (spring object)
 * TEMPLATE bean id = "..." class = "..."
   
 ## Info
-* bean
+bean
   * constructor-arg ref = "other_some_bean" /
   * constructor-arg ref = "some_bean" / - it looks like extends class (class C = class A + class B)
-* /bean
+/bean
   
 ## Also we can add values to constructor
 * Example:
-  * Sequential order as in a constructor
+  Sequential order as in a constructor
   * constructor-arg values = "qwerty"
   * constructor-arg values = "123"
-  * Accessing variables
+  Accessing variables
   * constructor-arg name = "var1" values = "qwerty"
   * constructor-arg name = "var2" values = "123"
-  * Accessing index
+  Accessing index
   * constructor-arg index = "0" values = "qwerty"
   * constructor-arg index = "1" values = "123"
     
