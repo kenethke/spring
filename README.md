@@ -23,8 +23,8 @@ Bean == object (spring object)
 ## Also we can add values to constructor
 * Example:
   * Sequential order as in a constructor
-  <constructor-arg values = "qwerty">
-  <constructor-arg values = "123">
+    * <constructor-arg values = "qwerty">
+    * <constructor-arg values = "123">
   * Accessing variables
   <constructor-arg name = "var1" values = "qwerty">
   <constructor-arg name = "var2" values = "123">
